@@ -34,32 +34,6 @@ The Pet Adoption Website helps connect pets with loving families. Users can view
 
 ---
 
-## 📂 Project Structure
-
-```
-
-pet-adoption/
-│
-├── index.html
-├── login.html
-├── register.html
-├── pets.html
-│
-├── css/
-│   └── style.css
-│
-├── js/
-│   └── script.js
-│
-├── images/
-│   ├── dog1.jpg
-│   ├── dog2.jpg
-│   ├── cat1.jpg
-│   └── hero.jpg
-│
-└── README.md
-
-```
 
 ---
 
