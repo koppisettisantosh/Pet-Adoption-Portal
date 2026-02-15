@@ -1,64 +1,134 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body style with background */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    font-family: 'Arial', sans-serif;
+    background: url('../images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+    padding: 20px;
 }
 
-.form-container {
-    width: 350px;
-    margin: 100px auto;
-    padding: 25px;
-    background: white;
+/* Container for pages */
+.container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    max-width: 1000px;
+    margin: auto;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
 }
 
-h2 {
+/* Headings */
+h1, h2, h3 {
+    margin-bottom: 15px;
+    color: #444;
     text-align: center;
-    margin-bottom: 20px;
 }
 
-input {
-    width: 100%;
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+select {
     padding: 10px;
-    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    width: 100%;
 }
 
 button {
-    width: 100%;
-    padding: 10px;
-    background-color: teal;
+    padding: 10px 20px;
+    background-color: #28a745;
     color: white;
+    font-weight: bold;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 button:hover {
-    background-color: darkcyan;
+    background-color: #218838;
 }
 
+/* Links */
 a {
+    color: #007bff;
     text-decoration: none;
-    color: teal;
 }
 
-p {
-    text-align: center;
+a:hover {
+    text-decoration: underline;
 }
 
-body {
-    font-family: Arial;
-    margin: 20px;
-}
-
+/* Pet / Adoption / Admin Cards */
 div {
-    border: 1px solid gray;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+/* Notification style */
+#notification-list div {
+    background-color: #fff3cd;
+    border-left: 5px solid #ffeeba;
     padding: 10px;
-    margin: 10px;
+    margin-bottom: 10px;
 }
 
-button {
-    padding: 5px 10px;
-    cursor: pointer;
+/* Tables for Admin or Payment History (optional) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
 }
 
+table, th, td {
+    border: 1px solid #ddd;
+}
 
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Search Input */
+#search {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+    
+    button {
+        width: 100%;
+    }
+}
