@@ -1,93 +1,115 @@
-# Pet-Adoption-Portal
+🐾 Pet Adoption Portal
 
-```markdown
-# 🐾 Pet Adoption Website
+A web-based Pet Adoption Portal developed as part of Professional Scrum Master (PSM) project.
 
-A simple and responsive Pet Adoption Website that allows users to browse available pets and apply for adoption. This project is designed as a frontend web application using HTML, CSS, and JavaScript.
+This application allows users to register, view pets, request adoptions, make payments, and receive notifications. Admin can manage pets, users, and adoption requests.
 
----
+📌 Project Modules
+1️⃣ User Module
 
-## 📌 Project Description
+User Registration
 
-The Pet Adoption Website helps connect pets with loving families. Users can view available pets, register, login, and apply for adoption. This project demonstrates basic web development skills and can be extended into a full-stack application.
+User Login
 
----
+Profile Management
 
-## 🚀 Features
+2️⃣ Pet Management Module
 
-- 🏠 Home page with featured pets
-- 👤 User registration page
-- 🔐 User login page
-- 🐶 View available pets
-- 📱 Responsive design
-- 🎨 Clean and modern UI
+View Pet List
 
----
+View Pet Details
 
-## 🛠 Technologies Used
+Search Pets
 
-- HTML5
-- CSS3
-- JavaScript
-- VS Code (Editor)
-- Git & GitHub (Version Control)
+3️⃣ Adoption Module
 
----
+Submit Adoption Request
+
+View My Adoption Requests
+
+Cancel Adoption Request
+
+View Adoption Status
+
+4️⃣ Admin Module
+
+Admin Login
+
+View Dashboard
+
+Manage Users
+
+Manage Pets
+
+Approve / Reject Adoption Requests
+
+5️⃣ Payment Module
+
+Make Payment
+
+Payment Confirmation
+
+View Payment History
+
+6️⃣ Notification Module
+
+Registration Notification
+
+Adoption Status Notification
+
+Payment Notification
+
+🛠 Technologies Used
+
+HTML
+
+CSS
+
+JavaScript
+
+LocalStorage
+
+Git
+
+GitHub
+
+Jira (Scrum Management)
+
+🌿 Branch Structure
+main
+│
+├── PAP-1-User-Module
+├── PAP-2-Pet-Management-Module
+├── PAP-3-Adoption-Module
+├── PAP-4-Admin-Module
+├── PAP-5-Payment-Module
+└── PAP-6-Notification-Module
+
+🚀 How to Run the Project
+
+Clone the repository:
+
+git clone <repository-link>
 
 
----
+Open project in VS Code.
 
-## ▶️ How to Run the Project
+Open index.html in browser.
 
-1. Download or clone the repository
-2. Open the project folder
-3. Double-click `index.html`
-4. The website will open in your browser
+📖 Scrum Implementation
 
----
+Product Backlog created in Jira
 
-## 📸 Screenshots
+Sprint Backlog maintained
 
-Add screenshots here (optional)
+Branch-based development
 
-Example:
-```
+Each module developed in separate branch
 
-Home Page Screenshot
-Pets Page Screenshot
-Login Page Screenshot
+Pull Requests created and merged into main
 
-```
+👨‍💻 Author
 
----
-
-## 🔮 Future Improvements
-
-- Add backend (Node.js / PHP)
-- Connect database (MySQL / MongoDB)
-- User authentication
-- Admin panel
-- Adoption request system
-
----
-
-## 🎯 Learning Objectives
-
-- Understand website structure
-- Learn HTML, CSS, and JavaScript
-- Practice frontend development
-- Learn project organization
-
----
-
-## 👨‍💻 Author
-
-Santosh Koppisetti  
-B.Tech CSE Student  
-
----
-
-## 📜 License
-
-This project is for educational purposes.
-```
+Santosh Koppisetti
+B.Tech CSE – 2nd Year
+Professional Scrum Master Lab Project
