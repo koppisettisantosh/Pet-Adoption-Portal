@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Adopt Pet</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1>Adopt a Pet</h1>
+
+    <form onsubmit="submitAdoption(event)">
+        <label>Pet Name:</label>
+        <input type="text" id="petName" required><br><br>
+
+        <label>Your Name:</label>
+        <input type="text" id="userName" required><br><br>
+
+        <label>Contact:</label>
+        <input type="text" id="contact" required><br><br>
+
+        <button type="submit">Submit Adoption Request</button>
+    </form>
+
+    <br>
+    <a href="my-adoptions.html">View My Adoption Requests</a>
+
+    <script src="js/adoption.js"></script>
+
+</body>
+</html>
